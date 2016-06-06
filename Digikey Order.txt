@@ -1,0 +1,28 @@
+Web ID,Access ID,Salesorder Number,Shipping Method,Customer Number,Payment Method,
+156052737,18279,46734523,FedEx Overnight A.M. Delivery (order by 8:00 PM CT),8149264,VISA,
+
+Shipping Address
+First Name,Last Name,Company,Mail Stop,Address Line 1,Address Line 2,City,State,Postal Code,Country,Email Address,Telephone,
+Matthew,Hennes,,,555 Ramona Dr.,Apt. 69A,San Luis Obispo,CA,93405,USA,THEMATTENTHEHAT@GMAIL.COM,8052106963,
+
+Billing Address
+First Name,Last Name,Company,Mail Stop,Address Line 1,Address Line 2,City,State,Postal Code,Country,Email Address,Telephone,
+Matthew,Hennes,,,1151 Mesa Dr.,,Simi Valley,CA,93063,USA,,8052106963,
+
+Index,Quantity,Part Number,Description,Customer Reference,Available Quantity,Backorder Quantity,Unit Price USD,Extended Price USD,
+1,5,CMF249KHBCT-ND,RES 249K OHM 1/2W 0.1% AXIAL,249K? R (1 PER),5,0,0.93000,4.65,
+2,5,4.7KADCT-ND,RES 4.7K OHM 1/4W 0.1% AXIAL,4.7K? R (1 PER),5,0,0.46000,2.30,
+3,3,398-1066-ND,SENSOR CURRENT HALL 400A AC/DC,CURRENT TRANS. (1 PER),3,0,26.13000,78.39,
+4,5,296-8329-5-ND,IC SWITCH QUAD 1X1 14DIP,BILATERAL SWITCH (1 PER),5,0,0.48000,2.40,
+5,60,TLP222GF-ND,IC PHOTOCOUPLER PHOTORELAY 4-DIP,PHOTORELAY (18 PER),60,0,0.85500,51.30,
+6,5,BC2311-ND,THERMISTOR NTC 10K OHM LEADED,THERMISTER (1 PER),5,0,0.45000,2.25,
+7,3,MT7390-ND,DC/DC CONVERTER 5V,DC/DC CONV. (1 PER),3,0,15.68000,47.04,
+8,5,RNF14FTD1K50CT-ND,RES 1.5K OHM 1/4W 1% AXIAL,1.5K? R (1 PER),5,0,0.10000,0.50,
+9,5,PPC10.0KZCT-ND,RES 10K OHM 0.6W 1% AXIAL,10K? R (1 PER),5,0,0.29000,1.45,
+10,5,PPC665XCT-ND,RES 665 OHM 1/2W 1% AXIAL,667K(ISH) R (1 PER),5,0,0.20000,1.00,
+11,5,MCP3301-CI/P-ND,IC ADC 13BIT SPI 1CH 100K 8-DIP,ADC (1 PER),5,0,2.27000,11.35,
+12,15,296-4666-5-ND,IC 3-TO-8 DECODER/DEMUX 16-DIP,3:8 DEMUX (3 PER),15,0,0.33800,5.07,
+,,,,,,Subtotal,207.70
+,,,,,,Shipping,unknown
+,,,,,,Estimated Sales Tax,16.62
+,,,,,,Total,unknown
