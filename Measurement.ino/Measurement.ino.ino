@@ -31,6 +31,7 @@ const int DEMUX3_A = 1; //D3
 const int DEMUX3_B = 0; //D2
 const int DEMUX3_C = 2; //D1
 
+// Setup the various components
 void setup()
 {
   Serial.begin(9600);
@@ -73,6 +74,7 @@ void setup()
   digitalWrite(DEMUX3_C, LOW);
 }
 
+// Take measuremnts and output results
 void loop()
 {
   unsigned int ADCResults[NUM_BATTERIES];
@@ -81,6 +83,7 @@ void loop()
   char raw[ADC_VAL_BUFF_SIZE];
   float voltage = 0;
   
+  // Take measurements
   for (int i = 0; i < NUM_BATTERIES; i++)
   {
     ADCResults[i] = measureBattery(i);
@@ -100,6 +103,7 @@ void loop()
     delay(100);
   }
   
+  // Output results
   for (int i = 0; i < NUM_BATTERIES; i++)
   {
     if (i == 0)
@@ -120,6 +124,7 @@ void loop()
   delay(1000);
 }
 
+// Take an ADC sample, and read it from SPI
 unsigned int takeADCSample()
 {
   unsigned int result = 0;
@@ -137,6 +142,7 @@ unsigned int takeADCSample()
   return result + 11; // compensate for offset
 }
 
+// Measure the specified battery's voltage
 unsigned int measureBattery(int battery)
 {
   unsigned int ADC_Value;
